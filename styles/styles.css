@@ -152,53 +152,79 @@ h1 {
     font-size: 40px;
 }
 
+/* the end game */
+
+.flex-container{
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+}
+
 .end{
     background-color: black;
-    margin-top: 130px;
-    display: flex;
-    
-    
 }
 
-.connect{
-    color: #F8F8F8;
-    padding-top: 130px;
-    padding-left: 260px;
+.left{
+
+    color: #FFFFFF;
+    padding: 130px 230px;
+ 
+    
+    
+  
 }
 
-.end-title{
-    padding-bottom: 16px;
+.left-title{
     font-weight: 700;
-font-size: 45px
-
+font-size: 45px;
 }
-.end-p{
-    padding-bottom: 24px;
+
+
+
+
+.email{
+    padding-top: 28px;
+    padding-bottom: 16px;
     font-weight: 400;
-font-size: 16px;
-}
-
-.end-icon{
-    display: inline;
-    text-decoration: none;
-}
-
-.right-side{
-    
-    justify-content: right;
-     margin-left: 500px;
+    font-size: 16px;
     
 }
 
 
 
-h4{
+.a{
+    padding-top: 17px;
+}
+
+.phone{
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.e{
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.p{
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+/* right */
+
+.right{
+    color: #FFFFFF;
+    padding: 130px 230px;
+}
+
+.subs{
     font-weight: 600;
 font-size: 25px;
 }
-
-.email{
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
